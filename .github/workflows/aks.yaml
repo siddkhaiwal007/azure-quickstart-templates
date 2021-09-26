@@ -14,7 +14,7 @@ jobs:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
         enable-AzPSSession: true 
 
-      # Deploy ARM template
+      # Deploy ARM  template
     - name: Run ARM deploy
       uses: azure/arm-deploy@v1
       with:
